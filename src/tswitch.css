@@ -1,0 +1,36 @@
+.toggle{
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+    border: 1px solid rgb(249, 233, 217);
+    border-radius: 13px;
+    background: rgb(254, 254, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(28, 27, 27);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.toggle_left,.toggle_right{
+    width: 41px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: rgb(158, 104, 243);
+    position: absolute;
+    border: 2px solid rgb(175, 139, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 45px 0px 0px;
+    padding: 2px;
+    transition: transform 0.3s ease;
+    color: aliceblue;
+}
+
+.toggle_right{
+    margin: -3px -3px 0px 45px;
+}
