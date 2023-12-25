@@ -66,6 +66,5 @@ function ToDoList() {
     </>
   )
 }
-import ToggleSwitch from './toggleSwitch';
 
 export default ToDoList
