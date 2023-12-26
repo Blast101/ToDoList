@@ -43,7 +43,7 @@ function ToDoList() {
     <>
     <div className='box'>
         <nav className='navbar'>
-            <span className="title">To-Do-List</span>
+            <span className="title">TO-DO-LIST</span>
             <span className='switch'>
                 <TSwitch/>
             </span>
